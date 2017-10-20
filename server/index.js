@@ -13,9 +13,9 @@ app.get('/mensaje', function(req, res){
 });
 
 //Abrir conexión del Socket.io
-io.on('connection', function(socket){
-    console.log("Nodo: " + socket.handshake.address + " Conectado.")
-})
+ io.on('connection', function(socket){
+     console.log("Nodo: " + socket.handshake.address + " Conectado.");
+ })
 
 //Inicializacion del Servidor
 server.listen(8080, function(){

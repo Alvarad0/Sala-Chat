@@ -12,3 +12,6 @@ Sala de Chat usando NodeJs y Socket.io
 #### Dependecnia nodemon
 `npm install nodemon --save-dev`
 
+#### Iniciar Servidor
+`npm start`
+
